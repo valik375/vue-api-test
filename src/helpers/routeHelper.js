@@ -1,10 +1,10 @@
 export default {
 
     usersPageName: 'Users',
-    usersPagePath: '/',
+    usersPagePath: '/users/',
 
     userDetailsPageName: 'UserDetails',
-    userDetailsPagePath: '/',
+    userDetailsPagePath: '/users/',
 
     postsPageName: 'Posts',
     postsPagePath: '/posts/',

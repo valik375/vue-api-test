@@ -3,6 +3,10 @@ import routeHelper from '@/helpers/routeHelper'
 
 const routes = [
   {
+    path: '/',
+    redirect: routeHelper.usersPagePath
+  },
+  {
     path: routeHelper.usersPagePath,
     name: routeHelper.usersPageName,
     component: () => import('@/pages/Users.vue')

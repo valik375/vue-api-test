@@ -1,7 +1,7 @@
 <template>
   <div class="user-item">
     <ListItem>
-      <router-link class="user-item__link" :to="`/${user.id}`">
+      <router-link class="user-item__link" :to="`${routeHelper.userDetailsPagePath}${user.id}`">
         <div class="user-item__name">Full name: {{ user.name }}</div>
         <div class="user-item__email">Email: {{ user.email }}</div>
         <div class="user-item__website">Website: {{ user.website }}</div>
