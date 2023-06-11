@@ -14,7 +14,6 @@ export default {
   .list-item {
     padding: 20px;
     width: 100%;
-    height: 100%;
     border-radius: 4px;
     border: 2px solid #000000;
   }
